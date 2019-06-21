@@ -9,18 +9,7 @@
 \subsection{Oracle Database en Docker:}
 	\item Los productos de Oracle son compatibles con Docker si el sistema operativo del host es Oracle Linux 7, pero no necesita usar un host OL7 para que esto funcione. Puedes ver cómo instalar Docker en OL7 .
 	\item Usar imágenes de Oracle Container Registry o de Docker Store tiene la ventaja que los binarios de instalación vienen incluidos, lo que no es permitido por licencia en el resto de las distribuciones. 
-\subsection{Referencias de cómo usar Oracle con Docker en Linux Y  en Windows:}
-	\item Docker en Windows 10:
-	\item Para usar la versión completa es necesario habilitar Microsoft Hyper-V, lo que implica deshabilitar la virtualización por hardware de nuestro PC. Si estamos usando VirtualBox en el mismo host, con este cambio deja de funcionar.
-Docker Toolbox no tiene esta restricción, aunque se mantiene como una versión antigua (Legacy), y Docker recomienda usar la versión completa.Otra diferencia de Docker Toolbox es que necesita una VM VirtualBox para ejecutar. Esta VM se crea de forma automática al usar Toolbox, de nombre default, y se usa como host para los containers que creemos.
- \subsection{Construir la imagen:}
-	\item La compilación espera el siguiente sistema de archivos. Tendrá que descargar la base de datos Oracle 19c y el software APEX usted mismo y colocarlo en el directorio "software".
-                     \begin{figure}[H]
-		\begin{center}
-		\includegraphics[width=8cm]{./Imagenes/100}
-		\end{center}
-		\end{figure}
-	
+
 
 \end{itemize}
 
